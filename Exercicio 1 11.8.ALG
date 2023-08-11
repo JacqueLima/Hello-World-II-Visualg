@@ -1,3 +1,9 @@
+//Faça um programa que leia o nome de um vendedor de motos e o valor da moto que ele está vendendo. Ao final mostre o nome do vendedor e a sua comissão de venda .
+Valor da moto:
+Valor igual ou superior a 100.000,00 20% de comissão
+Valor igual ou superior a 70.000,00 18% de comissão
+Valor igual ou superior a 50.000,00 15% de comissão
+Valor abaixo de 50.000,00 10% de comissão
 
 Var
 // Seção de Declarações das variáveis 
