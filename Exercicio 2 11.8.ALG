@@ -1,30 +1,30 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 10/08/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
  n1,n2:inteiro
  
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-  escreva("Digite um número: ")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+  escreva("Digite um nÃºmero: ")
   leia(n1)
-  escreva("Digite outro núemro:")
+  escreva("Digite outro nÃºemro:")
   leia(n2)
   
   se (n1>n2 )entao
-  escreva("Primeiro número digitado maior que o segundo número!")
+  escreva("Primeiro nÃºmero digitado maior que o segundo nÃºmero!")
    senao
    se(n1<n2) entao
-   escreva("Segundo número digitado maior que o primeiro número!")
+   escreva("Segundo nÃºmero digitado maior que o primeiro nÃºmero!")
    
    senao
    se(n1=n2)entao
-   escreva("Números iguais!")
+   escreva("NÃºmeros iguais!")
  fimse
   fimse
    fimse
