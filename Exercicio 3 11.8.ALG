@@ -1,3 +1,12 @@
+Faça um programa que solicite o nome de um aluno e o conceito final dele. 
+Ao final, mostre o nome do aluno, o conceito final dele e a situação.
+Segue os conceitos e a mensagem:
+
+A - "Aluno aprovado com o conceito máximo"
+B - "Aluno aprovado com um bom conceito"
+C - "Aluno aprovado com o conceito regular"
+D - "Aluno com o conceito em recuperação"
+E - "Aluno com o conceito de reprovação"
 
 Var
 // Seção de Declarações das variáveis 
