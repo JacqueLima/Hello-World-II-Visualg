@@ -8,7 +8,7 @@ Valor abaixo de 50.000,00 10% de comissão
 Var
 // Seção de Declarações das variáveis 
 nome: caracter
-valor, taxa, comissao: real
+valor, taxa: real
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
@@ -18,16 +18,16 @@ escreva("Digite o valor da moto: ")
 leia(valor)
 
    se (valor >= 100000) entao
-   taxa <- 0.20 // 20% de comissão
+   taxa <-valor *  0.20 // 20% de comissão
    senao
      se (valor >= 70000) entao
-     taxa <- 0.18 // 18% de comissão
+     taxa <- valor * 0.18 // 18% de comissão
        senao
        se(valor >= 50000)entao
-       taxa <- 0.15 // 15% de comissão
+       taxa <- valor * 0.15 // 15% de comissão
        senao
        se (valor < 50000) entao
-        taxa <- 0.10 // 10% de comissão
+        taxa <-valor *  0.10 // 10% de comissão
 
   fimse
    fimse
