@@ -1,12 +1,12 @@
 10/08/2023
 
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
   nome: caractere
    valor, comissao: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
       escreva("Digite o nome do vendedor: ")
    leia(nome)
    escreva("Digite o valor da moto: ")
@@ -24,6 +24,6 @@ Inicio
          fimse
       fimse
    fimse
-   escreva("O vendedor ", nome, " recebeu uma comissão de R$ ", comissao)
+   escreva("O vendedor ", nome, " recebeu uma comissÃ£o de R$ ", comissao)
 
 Fimalgoritmo
