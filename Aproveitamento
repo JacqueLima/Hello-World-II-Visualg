@@ -1,0 +1,45 @@
+Algoritmo "Aproveitamento"
+
+Var
+   n1,n2,med:real
+   ap:caracter
+
+
+Inicio
+   escreva("Primeira nota: ")
+   leia(n1)
+   escreva("Segunda nota: ")
+   leia(n2)
+   escreval("--------------")
+   med <- (n1+n2)/2
+   escreval("Média: ", med)
+   se(med>=9) e (med <=10)entao
+      escreval("Aproveitamento:A")
+      senao
+          se(med>=8) e (med<=9)entao
+            escreva("Aproveitamento:B")
+             senao
+                 se(med>=7) e (med<=8)entao
+                   escreva("Aproveitamento:C")
+                    senao
+                        se(med>=6) e (med<=7)entao
+                           escreva("Aproveitamento:D")
+                            senao
+                                se(med>=5) e (med<=6)entao
+                                   escreva("Aproveitamento:E")
+                                     senao
+                                       escreva("Aproveitamento:F")
+                                        
+
+                                
+                                FIMSE
+                        
+                        FIMSE
+                 
+                 FIMSE
+          
+          FIMSE
+   FIMSE
+
+
+Fimalgoritmo
